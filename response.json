@@ -1,8 +1,110 @@
 {
-    "name":"Parshav Shah",
-    "skills":[
-        {
-            "name":"nodejs"
-        }
+  "name": "John Doe",
+  "title": "Full Stack Developer",
+  "contact": {
+    "email": "johndoe@example.com",
+    "phone": "+1 234 567 890",
+    "linkedin": "https://www.linkedin.com/in/johndoe",
+    "github": "https://github.com/johndoe",
+    "website": "https://johndoe.dev"
+  },
+  "summary": "Experienced Full Stack Developer with 5+ years of expertise in building scalable web applications using modern technologies. Passionate about clean code, performance optimization, and user experience.",
+  "core_skills": ["Full Stack Development", "Microservices Architecture", "Cloud Computing", "Agile & Scrum", "DevOps"],
+  "skills": {
+    "frontend": [
+      {"name": "React.js", "rating": 5},
+      {"name": "Vue.js", "rating": 4},
+      {"name": "JavaScript", "rating": 5},
+      {"name": "TypeScript", "rating": 4},
+      {"name": "HTML", "rating": 5},
+      {"name": "CSS", "rating": 5},
+      {"name": "SASS", "rating": 4},
+      {"name": "Tailwind CSS", "rating": 5}
+    ],
+    "backend": [
+      {"name": "Node.js", "rating": 5},
+      {"name": "Express.js", "rating": 4},
+      {"name": "Django", "rating": 4},
+      {"name": "Flask", "rating": 3},
+      {"name": "Ruby on Rails", "rating": 3}
+    ],
+    "databases": [
+      {"name": "MongoDB", "rating": 4},
+      {"name": "PostgreSQL", "rating": 5},
+      {"name": "MySQL", "rating": 4},
+      {"name": "Firebase", "rating": 3}
+    ],
+    "tools": [
+      {"name": "Docker", "rating": 4},
+      {"name": "Git", "rating": 5},
+      {"name": "CI/CD", "rating": 4},
+      {"name": "Jenkins", "rating": 3},
+      {"name": "Webpack", "rating": 4},
+      {"name": "Babel", "rating": 4}
+    ],
+    "cloud": [
+      {"name": "AWS", "rating": 4},
+      {"name": "Azure", "rating": 3},
+      {"name": "Google Cloud", "rating": 3}
     ]
+  },
+  "experience": [
+    {
+      "company": "Tech Solutions Inc.",
+      "role": "Senior Full Stack Developer",
+      "duration": "Jan 2021 - Present",
+      "responsibilities": [
+        "Developed and maintained a large-scale web application using React and Node.js.",
+        "Implemented GraphQL API for efficient data fetching.",
+        "Optimized database queries leading to a 30% performance improvement.",
+        "Led a team of developers and conducted code reviews."
+      ]
+    },
+    {
+      "company": "Web Dev Co.",
+      "role": "Full Stack Developer",
+      "duration": "Aug 2018 - Dec 2020",
+      "responsibilities": [
+        "Built RESTful APIs with Express and integrated with frontend frameworks.",
+        "Implemented authentication and authorization using JWT.",
+        "Worked on responsive UI design with Tailwind CSS.",
+        "Automated deployment pipelines using Docker and AWS."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Software Engineering",
+      "institution": "ABC University",
+      "year": "2020"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "XYZ University",
+      "year": "2018"
+    }
+  ],
+  "projects": [
+    {
+      "name": "E-commerce Platform",
+      "description": "Developed a full-featured e-commerce platform with React, Node.js, and Stripe for payments.",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe"]
+    },
+    {
+      "name": "Chat Application",
+      "description": "Built a real-time chat application using WebSockets and Firebase.",
+      "technologies": ["Vue.js", "Firebase", "WebSockets"]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Developer - Associate",
+      "year": "2022"
+    },
+    {
+      "name": "Scrum Master Certification",
+      "year": "2021"
+    }
+  ],
+  "languages": ["English", "Spanish"]
 }
